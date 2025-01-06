@@ -1,0 +1,28 @@
+D:\App\jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/App/jetbrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\Code\QT\SerialHelper -B D:\Code\QT\SerialHelper\cmake-build-debug
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find Qt6SerialPort (missing: Qt6SerialPort_DIR)
+CMake Error at CMakeLists.txt:14 (find_package):
+  Found package configuration file:
+
+    D:/App/QT/6.8.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake
+
+  but it set Qt6_FOUND to FALSE so package "Qt6" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find required Qt component "SerialPort".
+
+  Expected Config file at
+  "D:/App/QT/6.8.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake"
+  does NOT exist
+
+
+
+  Configuring with --debug-find-pkg=Qt6SerialPort might reveal details why
+  the package was not found.
+
+  Configuring with -DQT_DEBUG_FIND_PACKAGE=ON will print the values of some
+  of the path variables that find_package uses to try and find the package.
+
+
+
+-- Configuring incomplete, errors occurred!
