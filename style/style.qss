@@ -1,0 +1,32 @@
+#openSerialButton {
+    background: #4CAF50;
+    border: 1px solid #3e8e41;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+#openSerialButton:hover {
+    background: #45a049;
+    border: 1px solid #2e7031;
+}
+
+#openSerialButton:pressed {
+    background: #e74c3c;  /* 按下后稳定为红色 */
+    border: 1px solid #c0392b;
+    color: white;
+    padding: 9px 15px;  /* 轻微按压效果 */
+}
+
+/* 这个会一直维持状态，保持按下后的长期状态 */
+#openSerialButton[state="pressed"] {
+    background: #e74c3c;  /* 保持按下颜色不变 */
+    border: 1px solid #c0392b;
+}
+
+#openSerialButton:disabled {
+    background: #cccccc;
+    color: #666666;
+    border: 1px solid #b3b3b3;
+}
