@@ -21,7 +21,7 @@ private slots:
     void on_clearRecvAreaButton_clicked() const;
     void on_clearSendAreaButton_clicked() const;
 
-    void slot_hex_tex_mode_modified(QComboBox * mode, QComboBox * encode_mode);
+    void slot_hex_tex_mode_modified() const;
 
 private:
     Ui::SerialHelper *ui;

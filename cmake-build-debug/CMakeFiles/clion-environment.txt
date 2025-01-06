@@ -1,5 +1,0 @@
-ToolSet: 17.0 (local)@D:\App\VS\IDE
-Ninja: 1.12.1@D:\App\jetbrains\CLion\bin\ninja\win\x64\ninja.exe
-Options: msvc.arch=amd64
-
-Options:-DCMAKE_MAKE_PROGRAM=D:/App/jetbrains/CLion/bin/ninja/win/x64/ninja.exe
